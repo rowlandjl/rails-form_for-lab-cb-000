@@ -1,5 +1,6 @@
 <h1>Student Form</h1>
 
 <%= form_for @student do |f| %>
-
+  <%= f.label 'Student First Name:' %>
+  <%= f.text_field :first_name, id: 'student_first_name' %>
 <% end %>
