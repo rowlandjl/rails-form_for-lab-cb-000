@@ -11,4 +11,9 @@ class SchoolClassesController < ApplicationController
   def edit 
   end 
   
+  private 
+  
+  def school_class_params(*args)
+    
+  
 end 
