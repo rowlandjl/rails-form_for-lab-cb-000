@@ -18,6 +18,8 @@ class StudentsController < ApplicationController
     
     private 
     
-    def student_param 
+    def student_params(*args)
+      
+    end 
   
 end 
