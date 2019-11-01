@@ -15,5 +15,9 @@ class StudentsController < ApplicationController
     
     def update 
     end 
+    
+    private 
+    
+    def student_param 
   
 end 
