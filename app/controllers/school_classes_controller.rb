@@ -8,6 +8,9 @@ class SchoolClassesController < ApplicationController
     @school_class = SchoolClass.create(school_class_params(:title, :room_number))
   end 
   
+  def show 
+  end 
+  
   def edit 
   end 
   
